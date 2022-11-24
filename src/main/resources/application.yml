@@ -14,17 +14,14 @@ server:
   port: 8090
 spring:
   datasource:
-    username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost/postgres
+    username: easjnssveclwig
+    password: 9057c119e1f158bed545bcc14c8190c65db9442c6ad20a3e56310a48a68378eb
+    url: jdbc:postgresql://ec2-54-173-77-184.compute-1.amazonaws.com/dekjrnovmvu8il
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: true
     hibernate:
       ddl-auto: create-drop
-    properties:
-      hibernate:
-        default_schema: public
     show-sql: true
   thymeleaf:
     cache: false
